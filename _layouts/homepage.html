@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% include site-head.html %}
+	</head>
+	<body class="{{ site.color_theme }}">
+		{% if page.navbar %}
+			{% include site-navbar.html %}
+		{% endif %}
+		<div class="hero-subheader{% if page.grid_navigation %} hero-subheader--before-out{% endif %}">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9">
+						<div class="align-container" data-mh>
+							<div class="align-inner">
+								{% if page.title %}
+									<h1 class="hero-subheader__title">{{ page.title }}</h1>
+								{% endif %}
+								{% if page.description %}
+									<p class="hero-subheader__desc">{{ page.description }}</p>
+								{% endif %}
+								{% for button in page.buttons %}
+									{% if button.external_url == true %}
+									<a href="{{ button.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-{{button.icon_position}}">
+										{% if button.icon %}<i class="icon icon--{{ button.icon }}"></i>{% endif %}
+										{{ button.content }}
+									</a>
+									{% else %}
+									<a href="{% if jekyll.environment == 'production' %}{{ site.baseurl }}{% endif %}{{ button.url }}" class="btn btn--dark btn--rounded btn--w-icon">
+										{% if button.icon %}<i class="icon icon--{{ button.icon }}"></i>{% endif %}
+										{{ button.content }}
+									</a>
+									{% endif %}
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+					{% if page.author.title and page.author.description and page.author.title_url %}
+						<div class="col-md-4 col-md-offset-1 hidden-xs hidden-sm">
+							<div class="align-container" data-mh>
+								<div class="align-inner">
+									<div class="hero-subheader__author">
+										<p class="hero-subheader__author-title">
+											{% if button.external_url == true %}
+											<a href="{{ page.author.title_url }}" class="btn btn--read-more">
+												{{ page.author.title }}
+												<i class="icon icon--arrow-right"></i>
+											</a>
+											{% else %}
+											<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.author.title_url }}" class="btn btn--read-more">
+												{{ page.author.title }}
+												<i class="icon icon--arrow-right"></i>
+											</a>
+											{% endif %}
+										</p>
+										<p>{{ page.author.description }}</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			{% for item in page.blocks %}
+				<div class="row" style="margin-bottom: 50px">
+				<div class="col-md-5">
+					<h2>{{item.title}}</h2>
+					<p>{{item.description | markdownify}}</p>
+				</div>
+				<div class="col-md-7">
+					{% gist item.gist %}
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		{% if page.grid_navigation %}
+			<div class="section section--darker-theme-color-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="nav-grid nav-grid--out" style="margin-top: 10px">
+								<div class="row">
+									{% for item in page.grid_navigation %}
+										<div class="col-sm-6 col-lg-6">
+											<a href="{% if jekyll.environment == 'production' %}{{ site.baseurl }}{% endif %}{{ item.url }}" class="nav-grid__item">
+												<div class="nav-grid__content">
+													<h2 class="nav-grid__title">
+														{% if item.icon %}
+															<i class="fas fa-{{item.icon}}" style="margin-right: 5px;"></i>
+														{% endif %}
+														{{ item.title }}
+													</h2>
+													<p>{{ item.excerpt }}</p>
+												</div>
+											</a>
+										</div>
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	{% include site-footer.html %}
+	</body>
+</html>

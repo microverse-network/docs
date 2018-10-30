@@ -1,0 +1,35 @@
+/**
+ * Code (generic/_code.scss)
+ */
+
+/* ----- General ----- */
+code,
+kbd,
+tt {
+  font-family: $font-family-monospace;
+  color: $color-code;
+  background-color: $color-code-bg;
+  border-radius: 0.1875rem;
+  padding: 0.125rem 0.375rem 0.1875rem 0.375rem;
+}
+
+pre {
+  overflow: auto;
+  border-left: 8px solid $color-pre-border;
+  margin: 0 0 1.25rem 0;
+  -webkit-overflow-scrolling: touch;
+
+  code {
+    color: black;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+  }
+}
+.js-gist-file-update-container.js-task-list-container.file-box {
+  max-height: 400px;
+}
+
+.gist-data table td.blob-num.js-line-number {
+  border-style: none !important;
+}

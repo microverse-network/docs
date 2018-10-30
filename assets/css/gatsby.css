@@ -1,0 +1,151 @@
+@import url(https://fast.fonts.net/t/1.css?apiType=css&projectid=e7c2d24d-05d9-40fe-a2ad-9752a31ef49e);
+@font-face {
+  font-family: Camphor;
+  font-weight: 200;
+  src: url(/assets/fonts/d531b2c1-7890-4ca7-a381-688f163df724.eot?#iefix);
+  src: url(/assets/fonts/d531b2c1-7890-4ca7-a381-688f163df724.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/1cec88ec-2f96-4151-ad20-c050fb96480d.woff2)
+      format('woff2'),
+    url(/assets/fonts/9436cceb-9bae-456c-9630-fde57ba02fe6.woff) format('woff'),
+    url(/assets/fonts/bff5b008-344b-4192-adea-e6c8cb401a2c.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: Camphor;
+  font-weight: 200;
+  font-style: italic;
+  src: url(/assets/fonts/3aa370d7-b926-4946-a158-18e6856556d3.eot?#iefix);
+  src: url(/assets/fonts/3aa370d7-b926-4946-a158-18e6856556d3.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/fb4b27cd-72c2-4eba-8142-55bee8515a8f.woff2)
+      format('woff2'),
+    url(/assets/fonts/8df7d6c2-4f28-4d86-a7fd-6d97aa5c7a14.woff) format('woff'),
+    url(/assets/fonts/20e32859-be26-4a4d-b056-cc3f3fa88e11.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: Camphor;
+  font-weight: 300;
+  src: url(/assets/fonts/697e25e7-3cce-44ca-bc13-052541349501.eot?#iefix);
+  src: url(/assets/fonts/697e25e7-3cce-44ca-bc13-052541349501.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/942a0868-4392-4c69-85fa-6d77a3716d9b.woff2)
+      format('woff2'),
+    url(/assets/fonts/9ff183ce-5d21-45c8-87f7-cc6a34c12be7.woff) format('woff'),
+    url(/assets/fonts/5d55e7e6-f5b4-4b79-8762-24d67e51aebc.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: Camphor;
+  font-weight: 300;
+  font-style: italic;
+  src: url(/assets/fonts/c552830a-fc5a-40f5-b272-328f80499127.eot?#iefix);
+  src: url(/assets/fonts/c552830a-fc5a-40f5-b272-328f80499127.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/981fcb88-3653-4ae9-b0ec-1a2181132fbc.woff2)
+      format('woff2'),
+    url(/assets/fonts/455fc5ad-7ada-4572-acb1-f01e75089be1.woff) format('woff'),
+    url(/assets/fonts/3b9bfb60-0585-4e06-b6f1-315d230642bc.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: Camphor;
+  font-weight: 400;
+  src: url(/assets/fonts/1a75b1be-660a-4bbb-89eb-ac51af5dd23c.eot?#iefix);
+  src: url(/assets/fonts/1a75b1be-660a-4bbb-89eb-ac51af5dd23c.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/7afb413d-536f-439c-bcca-ba53e24cda07.woff2)
+      format('woff2'),
+    url(/assets/fonts/4eea462d-03c9-489a-a928-185525ee60b0.woff) format('woff'),
+    url(/assets/fonts/b2be4b07-b8c4-4d15-beaa-8e29cc0d9b5c.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: Camphor;
+  font-weight: 400;
+  font-style: italic;
+  src: url(/assets/fonts/60bbeb9c-a312-4eb8-a3da-be10ba58e9f9.eot?#iefix);
+  src: url(/assets/fonts/60bbeb9c-a312-4eb8-a3da-be10ba58e9f9.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/307b7ac4-b3ef-4d81-a02e-38ce883a45db.woff2)
+      format('woff2'),
+    url(/assets/fonts/2158da83-8b4a-43bf-8a72-674f0e6dd62e.woff) format('woff'),
+    url(/assets/fonts/2211d9f5-2f3f-4382-89a6-24e90553f26f.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: Camphor;
+  font-weight: 500;
+  src: url(/assets/fonts/c33236ab-5b2c-4512-8e8d-55b46f10c20f.eot?#iefix);
+  src: url(/assets/fonts/c33236ab-5b2c-4512-8e8d-55b46f10c20f.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/b94e9ece-f9bc-4208-9336-9cc0b44aee89.woff2)
+      format('woff2'),
+    url(/assets/fonts/cad49c2a-ff92-4482-ac39-b71dbad15a8f.woff) format('woff'),
+    url(/assets/fonts/68ed309e-bb5d-4ace-9b76-8080c11daef9.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: Camphor;
+  font-weight: 500;
+  font-style: italic;
+  src: url(/assets/fonts/40c0effc-6232-453a-b4d0-6008f8ece572.eot?#iefix);
+  src: url(/assets/fonts/40c0effc-6232-453a-b4d0-6008f8ece572.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/44f020ac-ca8b-44c0-83f2-455160b2423f.woff2)
+      format('woff2'),
+    url(/assets/fonts/65539e5e-3000-4f72-ae28-26b2a7fac74c.woff) format('woff'),
+    url(/assets/fonts/d0d95584-2851-4256-9d6a-fe3e2970a27a.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: Camphor;
+  font-weight: 600;
+  src: url(/assets/fonts/2dfbc407-f527-4d2b-82c8-5d38905b6741.eot?#iefix);
+  src: url(/assets/fonts/2dfbc407-f527-4d2b-82c8-5d38905b6741.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/30a72170-8872-4260-8db3-dc070ad9d5ac.woff2)
+      format('woff2'),
+    url(/assets/fonts/f4e7a76f-8831-4641-87b8-d45d17b148cc.woff) format('woff'),
+    url(/assets/fonts/7bfa40d6-635d-4d32-9ce5-4b58a1332d0d.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: Camphor;
+  font-weight: 600;
+  font-style: italic;
+  src: url(/assets/fonts/b74686d9-1448-479b-ab7d-223e5d83cbb1.eot?#iefix);
+  src: url(/assets/fonts/b74686d9-1448-479b-ab7d-223e5d83cbb1.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/d50cd608-e926-4d34-8f6c-f26e9daebc97.woff2)
+      format('woff2'),
+    url(/assets/fonts/a95f4858-cc01-4c23-b7b8-30ef8f69d6d2.woff) format('woff'),
+    url(/assets/fonts/fee5344a-e942-4e60-adc1-998af3a11395.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: Camphor;
+  font-weight: 700;
+  src: url(/assets/fonts/e88b886c-2aeb-410c-9e3f-91493c91b490.eot?#iefix);
+  src: url(/assets/fonts/e88b886c-2aeb-410c-9e3f-91493c91b490.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/d1072277-d2f5-47da-a064-8d90d0ce42dd.woff2)
+      format('woff2'),
+    url(/assets/fonts/daea7840-3807-4f33-a94b-f2b0f16893f0.woff) format('woff'),
+    url(/assets/fonts/e0ec9baf-9dab-405c-be14-826497b580f2.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: Camphor;
+  font-weight: 700;
+  font-style: italic;
+  src: url(/assets/fonts/7677e484-0752-436b-b351-7fa8c84ca36a.eot?#iefix);
+  src: url(/assets/fonts/7677e484-0752-436b-b351-7fa8c84ca36a.eot?#iefix)
+      format('eot'),
+    url(/assets/fonts/abefefc6-f01c-487f-b3b4-3217bd0dbb01.woff2)
+      format('woff2'),
+    url(/assets/fonts/3cd55927-934a-430b-a65b-72f0299de9f7.woff) format('woff'),
+    url(/assets/fonts/831958af-55e1-40af-aff9-975f68c1fa39.ttf)
+      format('truetype');
+}

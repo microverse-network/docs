@@ -1,0 +1,34 @@
+title: microverse
+email: support@microverse.io
+repository: koding/microverse
+description:
+  Microverse description.
+keywords: >
+  integrated development environment, cloud ide, dev environment,
+  cloud development environment, cloud editor, virtual dev environment,
+  web based ide, test environment, docker, aws, vagrant, azure, rackspace
+baseurl: ""
+url: "https://www.microverse.io"
+permalink: /:title/
+timezone: America/Los_Angeles
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- Rakefile
+- vendor/bundle
+
+plugins:
+  - jekyll-gist
+
+layouts_dir: ./_layouts
+includes_dir: ./_includes
+
+sass:
+  style: compressed
+  sass_dir: ./_sass
+
+footer:
+  social_list:
+    - profile_url: https://github.com/koding/microverse
+      network_name: github
